@@ -43,7 +43,7 @@ function Hero() {
     return (
         <Section>
             <HeroImageStyled alt={"Hero Image"} src={HeroImage}/>
-            <MyButton backColor={"#5363FF"}>Join Now</MyButton>
+            <MyButton backColor={"#5363FF"} href={'https://linktr.ee/CATFUN'} >Join Now</MyButton>
         </Section>
     );
 }
