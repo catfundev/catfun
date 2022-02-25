@@ -125,10 +125,10 @@ function AppBar(props: { window?: () => Window; }) {
                                     </Stack>
                                     <Divider color={'darkslategrey'}/>
                                     <Stack spacing={2}>
-                                        <MyButton variant={'outlined'} href={'https://twitter.com/dogefuncoin'}
+                                        <MyButton variant={'outlined'} href={'https://twitter.com/catfuntoken'}
                                                   style={{width: "15em", display: 'flex'}}
                                                   endIcon={<FaTwitter color={'darkslategrey'}/>}>Twitter</MyButton>
-                                        <MyButton variant={'outlined'} href={'https://t.me/DOGEFUNOfficial'}
+                                        <MyButton variant={'outlined'} href={'https://t.me/CATFUNOfficial'}
                                                   style={{width: "15em", display: 'flex'}}
                                                   endIcon={<FaTelegram color={'darkslategrey'}/>}>Telegram</MyButton>
                                     </Stack>
@@ -142,7 +142,7 @@ function AppBar(props: { window?: () => Window; }) {
                             <IconButton href={'https://t.me/DOGEFUNOfficial'}>
                                 <FaTelegram color={'darkslategrey'}/>
                             </IconButton>
-                            <MyButton variant={'outlined'} style={{width: "15em"}}>PancakeSwap Link</MyButton>
+                            <MyButton variant={'outlined'} style={{width: "15em"}} href={'https://pancakeswap.finance/'} >PancakeSwap Link</MyButton>
                             <MyButton variant={'outlined'} style={{width: "15em"}} onClick={async event => {
                                 event.preventDefault()
                                 await router.push('WHITEPAPER.pdf')
