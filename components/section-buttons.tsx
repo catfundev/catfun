@@ -28,7 +28,7 @@ function SectionButtons() {
                             <Typography >ARE YOU READY TO DIE LAUGHING, BECAUSE WE GOING TO MCDONALD&apos;S, JOIN CATFUN COMMUNITY, HAVING FUN WHILE WE EAT BIGMAC MEAL</Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>PANCAKESWAP</Button>
+                                    <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >PANCAKESWAP</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
                                     <Button variant={'outlined'}>DEXTOOLS</Button>
