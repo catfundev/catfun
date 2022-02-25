@@ -136,10 +136,10 @@ function AppBar(props: { window?: () => Window; }) {
                             </MyDrawer>
                         </Box>
                         <Stack direction={'row'} spacing={1} sx={{display: {xs: 'none', sm: 'flex'}}}>
-                            <IconButton href={'https://twitter.com/dogefuncoin'}>
+                            <IconButton href={'https://twitter.com/catfuntoken'}>
                                 <FaTwitter color={'darkslategrey'}/>
                             </IconButton>
-                            <IconButton href={'https://t.me/DOGEFUNOfficial'}>
+                            <IconButton href={'https://t.me/CATFUNOfficial'}>
                                 <FaTelegram color={'darkslategrey'}/>
                             </IconButton>
                             <MyButton variant={'outlined'} style={{width: "15em"}} href={'https://pancakeswap.finance/'} >PancakeSwap Link</MyButton>
