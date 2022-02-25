@@ -11,6 +11,7 @@ const Button = styled(MuiButton)<ButtonProps>`
   padding: 10px 60px;
   color: black;
   width: 100%;
+  text-align: center;
   border-radius: 100px;
   border-color: darkslategrey;
   display: inline-block;
