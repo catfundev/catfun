@@ -66,7 +66,7 @@ function SectionCards() {
                             "YouTube Influencers",
                             "MEME/GIF CONTESTS",
                             "METAVERSE PROPERTY",
-                            "PRESS RELEASES,       
+                            "PRESS RELEASES",       
                             "REVAMP WEBSITE",
                             "15000 HOLDERS",
                         ]}
