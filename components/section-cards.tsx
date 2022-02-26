@@ -30,15 +30,19 @@ function SectionCards() {
                             "PRIVATE SALE (50 BNB)",
                             "DEPLOY SMART CONTRACT ON BSC",
                             "KYC+AUDIT",
+                            "PRESALE MARKETING (PROMOS)",
+                            "PRESALE AMAs",
                             "BUILDING TELEGRAM COMMUNITY",
-                            "SWEEPWIDGET FOR WHITELIST PRESALE",]}
+                            "SWEEPWIDGET FOR WHITELIST PRESALE",
+                            "PRESALE ON SPHYNX (300 BNB HC)",]}
                     />
                     <Card
                         title={<Typography>MEMES<br/>(Phase 1)</Typography>}
                         select={false}
                         features={["LAUNCH ON PANCAKESWAP",
                             "CMC LISTING",
-                            "POOCOIN ADS/COINSNIPER ADS - TWITTER CAMPAIGN",
+                            "POOCOIN ADS/COINSNIPER ADS",
+                            "TWITTER CAMPAIGN",
                             "Influencers Marketing",
                             "Asian Marketing",
                             "2000 HOLDERS",]}
@@ -46,29 +50,35 @@ function SectionCards() {
                     <Card
                         title={<Typography>STANDUP COMEDY<br/>(Phase 2)</Typography>}
                         select={false}
-                        features={["CG Listing/Crypto.com Tracker - DEXTOOL TRENDING",
+                        features={["CG Listing/Crypto.com Tracker",
+                            "DEXTOOL TRENDING",
                             "MEME/GIF CONTESTS",
-                            "LUNARCRUSH (SOCIAL RANKS) - BILLBOARD ADS",
+                            "LUNARCRUSH (SOCIAL RANKS)", 
+                            "BILLBOARD ADS",
                             "8000 HOLDERS",
                         ]}
                     />
                     <Card
-                        title={<Typography>HODL<br/>(Phase 3)</Typography>}
+                        title={<Typography>COMMUNITY<br/>(Phase 3)</Typography>}
                         select={false}
                         features={["Mid Tier CEX Listings",
-                            "DEVELOPMENT OF GAMING BEGINS - YouTube Influencers",
+                            "DEVELOPMENT OF GAMING BEGINS",
+                            "YouTube Influencers",
                             "MEME/GIF CONTESTS",
+                            "METAVERSE PROPERTY",
+                            "PRESS RELEASES,       
                             "REVAMP WEBSITE",
                             "15000 HOLDERS",
                         ]}
                     />
                     <Card
-                        title={<Typography>JOKE <br/> (Phase 4)</Typography>}
+                        title={<Typography>HOLD <br/> (Phase 4)</Typography>}
                         select={false}
-                        features={["DFUN SWAP",
+                        features={["CATFUN SWAP",
                             "SATOSHISTREETBETS PARTNERSHIP",
-                            "DFUN MERCHSTORE/DFUN GAME LAUNCH",
+                            "CATFUN MERCHSTORE/CATFUN GAME LAUNCH",
                             "TIER 1 CEX LISTINGS",
+                            "CATFUN ASIA ADVERTISEMENTS",
                             "40000 HOLDERS",]}
                     />
                     {/*<Image src={Stage0} alt={"Stage0"} width={300} height={400}/>*/}
