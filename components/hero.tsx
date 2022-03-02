@@ -17,20 +17,34 @@ const Section = styled.section`
 
 const MyButton = styled(Button)`
   position: absolute;
+  display: flex;
   bottom: 1%;
   right: 0;
   z-index: 10;
   color: whitesmoke;
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: 40%;
   height: 2.4em;
   transition: transform .3s;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 
+  & > span > img {
+      width: 100%;
+      height: 100%;
+  }
+
   @media (max-width: 800px) {
     padding: 0;
     font-size: 1.2rem;
+
+    & > span {
+      margin: 0;
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
   }
 
   &:hover {
@@ -43,7 +57,8 @@ function Hero() {
     return (
         <Section>
             <HeroImageStyled alt={"Hero Image"} src={HeroImage}/>
-            <MyButton backColor={"#5363FF"} href={'https://linktr.ee/CATFUN'} >Join Now</MyButton>
+            <MyButton backColor={"#5363FF"} href={'https://linktr.ee/CATFUN'} endIcon={<img src={'/favicon.ico'}/>}>Join
+                Now</MyButton>
         </Section>
     );
 }
