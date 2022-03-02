@@ -26,6 +26,7 @@ function SectionHowToBuy() {
                 <MyVideo preload="metadata" controls poster={'/THUMBNAIL.jpg'}>
                     <source src={'/Comp_1.mp4'} type='video/mp4'/>
                 </MyVideo>
+                <Typography>Official Email:<br/>support@catfun.io</Typography>
             </MyStack>
         </MySection>
     );
