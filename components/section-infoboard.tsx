@@ -31,6 +31,8 @@ function SectionInfoBoard() {
                     40%</Typography>
                 <Typography>Burn per transaction<br/>
                     1%<br/>(auto deflationary)</Typography>
+                <Typography>Official email<br/>
+                    support@catfun.io</Typography>
             </Stack>
         </MySection>
     );
