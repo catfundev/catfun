@@ -27,7 +27,6 @@ function SectionHowToBuy() {
                     <source src={'/Comp_1.mp4'} type='video/mp4'/>
                 </MyVideo>
             </MyStack>
-            <Typography>Official Email:<br/>support@catfun.io</Typography>
         </MySection>
     );
 }
