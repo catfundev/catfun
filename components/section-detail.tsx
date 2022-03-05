@@ -3,6 +3,7 @@ import {Container, Grid, styled, Typography as MuiTypography} from "@mui/materia
 import Image from "next/image";
 import SectionImage from "../assets/TRANSPARANT 2.png";
 import React from "react";
+import {imageLoader} from "../services/loader"
 
 const Typography = styled(MuiTypography)`
   color: whitesmoke;
@@ -33,7 +34,7 @@ function SectionDetail() {
                 </Grid>
                 <Grid item xs={12} sm={6} sx={{margin: 'auto'}} textAlign={'center'}>
                     {/*<MyContainer>*/}
-                    <Image alt={'section image'} src={SectionImage} width={'450em'} height={"400em"}
+                    <Image loader={imageLoader} alt={'section image'} src={SectionImage} width={'450em'} height={"400em"}
                     />
                     {/*</MyContainer>*/}
                 </Grid>

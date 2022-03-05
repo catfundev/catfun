@@ -3,6 +3,7 @@ import Image from 'next/image'
 import HeroImage from '../assets/hero.jpeg'
 import styled from "@emotion/styled";
 import Button from "./button";
+import {imageLoader} from "../services/loader"
 
 const HeroImageStyled = styled(Image)`
   background-size: cover;
@@ -56,8 +57,8 @@ const MyButton = styled(Button)`
 function Hero() {
     return (
         <Section>
-            <HeroImageStyled alt={"Hero Image"} src={HeroImage}/>
-            <MyButton backColor={"#5363FF"} href={'https://linktr.ee/CATFUN'} endIcon={<img src={'/favicon.ico'}/>}>Join
+            <HeroImageStyled loader={imageLoader} alt={"Hero Image"} src={HeroImage}/>
+            <MyButton backColor={"#5363FF"} href={'https://linktr.ee/CATFUN'} endIcon={<img alt={'logo'} src={'/favicon.ico'}/>}>Join
                 Now</MyButton>
         </Section>
     );

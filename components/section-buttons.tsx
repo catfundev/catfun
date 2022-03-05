@@ -4,6 +4,7 @@ import Button from "./button";
 import Image from "next/image";
 import SectionImage from "../assets/TRANSPARANT 2.png";
 import Section from "./section";
+import {imageLoader} from "../services/loader"
 
 const Typography = styled(MuiTypography)`
   color: whitesmoke;
@@ -48,7 +49,7 @@ function SectionButtons() {
                 </Grid>
                 <Grid item sm={12} md={6} sx={{margin: 'auto'}}>
                     <Container>
-                        <Image alt={'section image'} src={SectionImage} width={'300em'} height={"250em"}
+                        <Image loader={imageLoader} alt={'section image'} src={SectionImage} width={'300em'} height={"250em"}
                                />
                     </Container>
                 </Grid>

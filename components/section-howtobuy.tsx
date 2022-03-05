@@ -50,7 +50,7 @@ function SectionHowToBuy() {
 //
 //     return (
 //         <MyStack spacing={1}>
-//             <Image src={img} alt={heading} width={100} height={70}/>
+//             <Image loader={imageLoader} src={img} alt={heading} width={100} height={70}/>
 //             <Typography variant={"h6"} color={"#A15200FF"}>step {step}</Typography>
 //             <Typography fontWeight={'bold'} color={"#d06b00"}>{heading}</Typography>
 //             <MyTypo>{body}</MyTypo>
