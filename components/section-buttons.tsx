@@ -28,19 +28,22 @@ function SectionButtons() {
                             <Typography >ARE YOU READY TO DIE LAUGHING, BECAUSE WE GOING TO MCDONALD&apos;S, JOIN CATFUN COMMUNITY, HAVING FUN WHILE WE EAT BIGMAC MEAL</Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
+                                    <Button variant={'outlined'} href={'https://thesphynx.co/launchpad/live/40/56'} >PRESALE</Button>
+                                </Grid>
+                                <Grid item xs={12} sm={6}>
                                     <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >PANCAKESWAP</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >DEXTOOLS</Button>
+                                    <Button variant={'outlined'} href={'https://www.dextools.io/app/bsc'} >DEXTOOLS</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >BSCSCAN</Button>
+                                    <Button variant={'outlined'} href={'https://bscscan.com/token/0xaff35436558e8ea27f6b4c728d042b22381bc038'} >BSCSCAN</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >CMC</Button>
+                                    <Button variant={'outlined'} href={'https://coinmarketcap.com/'} >CMC</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >CG</Button>
+                                    <Button variant={'outlined'} href={'https://www.coingecko.com/'} >CG</Button>
                                 </Grid>
                             </Grid>
                         </Stack>
