@@ -31,6 +31,9 @@ function SectionButtons() {
                                     <Button variant={'outlined'} href={'https://thesphynx.co/launchpad/live/40/56'} >PRESALE</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
+                                    <Button variant={'outlined'} href={'https://dessertswap.finance/audits/Cat-Fun-BSC-Audit-15829366.pdf'} >AUDIT</Button>
+                                </Grid>
+                                <Grid item xs={12} sm={6}>
                                     <Button variant={'outlined'} href={'https://pancakeswap.finance/'} >PANCAKESWAP</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
