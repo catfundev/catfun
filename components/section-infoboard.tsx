@@ -24,6 +24,7 @@ function SectionInfoBoard() {
                 width={"100%"}
                 flexWrap={"wrap"}
             >
+                <Typography>Contract Address<br/>0xaFf35436558E8ea27f6b4c728d042B22381bc038</Typography>
                 <Typography>Token Supply<br/>1,000,000,000,000,000</Typography>
                 <Typography>Max Wallet<br/>
                     1%</Typography>
