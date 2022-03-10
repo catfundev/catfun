@@ -30,8 +30,8 @@ function SectionInfoBoard() {
                     1%</Typography>
                 <Typography>Initial burn<br/>
                     40%</Typography>
-                <Typography>Burn per transaction<br/>
-                    1%<br/>(auto deflationary)</Typography>
+                <Typography>0% BUY TAX<br/>
+                    We welcome all<br/>Never tax buyers</Typography>
                 <Typography>Official email<br/>
                     support@catfun.io</Typography>
             </Stack>
