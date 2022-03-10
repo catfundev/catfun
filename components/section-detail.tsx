@@ -27,7 +27,7 @@ function SectionDetail() {
                             <br/>
                             However as the community and project grows. We have plans to develop a unique ecosystem that
                             will benefit many &quot;Cat/Shiba/Floki&quot; related projects on the platform where their
-                            holders will be able to benefit from $DFUN Ecosystem.
+                            holders will be able to benefit from $CATFUN Ecosystem.
                         </Typography>
                     </Container>
                 </Grid>
