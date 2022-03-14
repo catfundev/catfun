@@ -8,11 +8,13 @@ const Typography = styled(MuiTypography)`
 
 const MyStack = styled(Stack)`
   overflow-x: scroll;
+
   &::-webkit-scrollbar {
     display: none;
   }
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 `
 
 function SectionCards() {
@@ -25,61 +27,70 @@ function SectionCards() {
                     <Card
                         title={<Typography>JOKE<br/>(Development)</Typography>}
                         select={false}
-                        features={["DEVELOPMENT OF PROJECT","WHITEPAPER LAUNCH",
-                            "WEBSITE LAUNCH",
-                            "PRIVATE SALE (50 BNB)",
-                            "DEPLOY SMART CONTRACT ON BSC",
-                            "KYC+AUDIT",
-                            "PRESALE MARKETING (PROMOS)",
-                            "PRESALE AMAs",
-                            "BUILDING TELEGRAM COMMUNITY",
-                            "SWEEPWIDGET FOR WHITELIST PRESALE",
-                            "PRESALE ON SPHYNX (300 BNB HC)",]}
+                        features={[
+                            {title: "DEVELOPMENT OF PROJECT", color: "green"},
+                            {title: "WHITEPAPER LAUNCH", color: "green",},
+                            {title: "WEBSITE LAUNCH", color: "green",},
+                            {title: "PRIVATE SALE (50 BNB)", color: "green",},
+                            {title: "DEPLOY SMART CONTRACT ON BSC", color: "green",},
+                            {title: "KYC+AUDIT", color: "green",},
+                            {title: "PRESALE MARKETING (PROMOS)", color: "green",},
+                            {title: "PRESALE AMAs", color: "green",},
+                            {title: "BUILDING TELEGRAM COMMUNITY", color: "green",},
+                            {title: "SWEEPWIDGET FOR WHITELIST PRESALE", color: "green",},
+                            {title: "PRESALE ON SPHYNX (300 BNB HC)", color: "green",},
+                        ]}
                     />
                     <Card
                         title={<Typography>MEMES<br/>(Phase 1)</Typography>}
                         select={false}
-                        features={["LAUNCH ON PANCAKESWAP",
-                            "CMC LISTING",
-                            "POOCOIN ADS/COINSNIPER ADS",
-                            "TWITTER CAMPAIGN",
-                            "Influencers Marketing",
-                            "Asian Marketing",
-                            "2000 HOLDERS",]}
+                        features={[
+                            {title: "LAUNCH ON PANCAKESWAP", color: "green"},
+                            {title: "CMC LISTING",},
+                            {title: "POOCOIN ADS/COINSNIPER ADS",},
+                            {title: "TWITTER CAMPAIGN",},
+                            {title: "Influencers Marketing",},
+                            {title: "Asian Marketing",},
+                            {title: "2000 HOLDERS",},
+                        ]}
                     />
                     <Card
                         title={<Typography>STANDUP COMEDY<br/>(Phase 2)</Typography>}
                         select={false}
-                        features={["CG Listing/Crypto.com Tracker",
-                            "DEXTOOL TRENDING",
-                            "MEME/GIF CONTESTS",
-                            "LUNARCRUSH (SOCIAL RANKS)", 
-                            "BILLBOARD ADS",
-                            "8000 HOLDERS",
+                        features={[
+                            {title: "CG Listing/Crypto.com Tracker",},
+                            {title: "DEXTOOL TRENDING",},
+                            {title: "MEME/GIF CONTESTS",},
+                            {title: "LUNARCRUSH (SOCIAL RANKS)",},
+                            {title: "BILLBOARD ADS",},
+                            {title: "8000 HOLDERS",},
                         ]}
                     />
                     <Card
                         title={<Typography>COMMUNITY<br/>(Phase 3)</Typography>}
                         select={false}
-                        features={["Mid Tier CEX Listings",
-                            "DEVELOPMENT OF GAMING BEGINS",
-                            "YouTube Influencers",
-                            "MEME/GIF CONTESTS",
-                            "METAVERSE PROPERTY",
-                            "PRESS RELEASES",       
-                            "REVAMP WEBSITE",
-                            "15000 HOLDERS",
+                        features={[
+                            {title: "Mid Tier CEX Listings",},
+                            {title: "DEVELOPMENT OF GAMING BEGINS",},
+                            {title: "YouTube Influencers",},
+                            {title: "MEME/GIF CONTESTS",},
+                            {title: "METAVERSE PROPERTY",},
+                            {title: "PRESS RELEASES",},
+                            {title: "REVAMP WEBSITE",},
+                            {title: "15000 HOLDERS",},
                         ]}
                     />
                     <Card
                         title={<Typography>HOLD <br/> (Phase 4)</Typography>}
                         select={false}
-                        features={["CATFUN SWAP",
-                            "SATOSHISTREETBETS PARTNERSHIP",
-                            "CATFUN MERCHSTORE/CATFUN GAME LAUNCH",
-                            "TIER 1 CEX LISTINGS",
-                            "CATFUN ASIA ADVERTISEMENTS",
-                            "40000 HOLDERS",]}
+                        features={[
+                            {title:"CATFUN SWAP",},
+                            {title:"SATOSHISTREETBETS PARTNERSHIP",},
+                            {title:"CATFUN MERCHSTORE/CATFUN GAME LAUNCH",},
+                            {title:"TIER 1 CEX LISTINGS",},
+                            {title:"CATFUN ASIA ADVERTISEMENTS",},
+                            {title:"40000 HOLDERS",},
+                        ]}
                     />
                     {/*<Image src={Stage0} alt={"Stage0"} width={300} height={400}/>*/}
                     {/*<Image src={Stage1} alt={"Stage1"} width={300} height={450}/>*/}

@@ -37,8 +37,13 @@ const MyHeader = styled(CardHeader)`
   }
 `
 
+interface Feature {
+    title: string
+    color?: string
+}
+
 interface Props {
-    features: string[]
+    features: Feature[]
     select: boolean
     title: React.ReactNode
 }
@@ -55,9 +60,9 @@ function Card(props: Props) {
                     return (
                         <ListItem key={index} disablePadding>
                             <ListItemIcon>
-                                <FiCheckCircle size={20} color={'whitesmoke'}/>
+                                <FiCheckCircle size={20} color={value.color || 'whitesmoke'}/>
                             </ListItemIcon>
-                            <ListItemText primary={<MyTypo>{value}</MyTypo>}/>
+                            <ListItemText primary={<MyTypo>{value.title}</MyTypo>}/>
                         </ListItem>
                     );
                 })}
