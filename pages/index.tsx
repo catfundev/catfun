@@ -7,6 +7,7 @@ import SectionDetail from "../components/section-detail";
 import SectionCards from "../components/section-cards";
 import SectionUniswap from "../components/section-uniswap";
 import SectionHowToBuy from "../components/section-howtobuy";
+import SectionReviews from "../components/section-reviews";
 
 const Home: NextPage = () => {
     return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
             <SectionCards/>
             <SectionUniswap/>
             <SectionHowToBuy/>
+            <SectionReviews/>
         </>
     )
 }
